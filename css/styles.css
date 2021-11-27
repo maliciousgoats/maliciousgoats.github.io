@@ -60,7 +60,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #fdfeff;
   --bs-body-bg: #fff;
 }
 
@@ -1388,6 +1388,7 @@ progress {
   }
 
   .col-lg-6 {
+    color: #000;
     flex: 0 0 auto;
     width: 50%;
   }
@@ -7837,7 +7838,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #05526a !important;
 }
 
 .bg-dark {
@@ -11421,7 +11422,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/StevenHeader.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11476,7 +11477,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/main_header.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11561,7 +11562,7 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  background-color: #fff;
+  background: #fff;
   color: #1D809F;
   height: 7rem;
   width: 7rem;
@@ -11569,4 +11570,42 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#Toma {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  background: url(../assets/img/TomaAllary.jpg);
+}
+
+#Benoit {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center center;
+  background: url(../assets/img/benoit.jpg);
+}
+
+#Vincent {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center center;
+  background: url(../assets/img/vincent.jpg);
+}
+
+#Manu {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center center;
+  background: url(../assets/img/manu.jpg);
 }
