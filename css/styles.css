@@ -11332,6 +11332,22 @@ html {
   font-weight: 800;
 }
 
+.bothead-left {
+  position: fixed;
+  left: 10px;
+  bottom: 0px;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  line-height: 45px;
+  filter: grayscale(0%);
+}
+
+.bothead-left:hover {
+  filter: grayscale(50%);
+}
+
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
